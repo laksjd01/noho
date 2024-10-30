@@ -44,3 +44,15 @@ body {
     margin-right: 30px; // Space between images
         
 }
+.box{
+    width: 350px;
+    height: 600px;
+    margin-top: 1010px;
+    
+    display: flex;
+    justify-content: space-between; // Space between images
+    align-items: flex-start;
+    padding: 0 1px; // Left and right margin for the box
+
+
+}
