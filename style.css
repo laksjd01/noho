@@ -24,7 +24,7 @@ padding:0 30px;/*left and right margin for the body*/
 .background-box {
     width: 350px;
     height: 610px;
-    margin-top: 300px;
+    margin-top: 400px;
    
     display: flex;
     justify-content: space-between; /* Space between images */
@@ -44,3 +44,19 @@ padding:0 30px;/*left and right margin for the body*/
 .image:not(:last-child) {
     margin-right: 30px; /* Space between images */
     
+.box{
+    width: 350px;
+    height: 610px;
+    margin-top: 1010px;
+   
+    display: flex;
+    justify-content: space-between; /* Space between images */
+    align-items: flex-start;
+    padding: 0 1px; /* Left and right margin for the box */
+
+
+
+
+
+
+}
