@@ -1,91 +1,46 @@
-$p: hsl(213deg 85% 97%);
-$s: hsl(233deg 36% 38%);
-* { font-family: 'Poppins' }
-@mixin screen {
-	background: $p;
-	padding: 2em;
-	display: flex;
-	flex-direction: column;
-	border-radius: 30px;
-	box-shadow: 0 0 2em hsl(231deg 62% 94%);
-}
-body {
-	user-select: none;
-	overflow-y: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: hsl(218deg 50% 91%);
-	height: 100vh;
-}
-.screen-1 {
-	@include screen;
-	gap: 2em;
-	.logo { margin-top: -3em }
-	.email {
-		background: hsl(0deg 0% 100%);
-		box-shadow: 0 0 2em hsl(231deg 62% 94%);
-		padding: 1em;
-		display: flex;
-		flex-direction: column;
-		gap: 0.5em;
-		border-radius: 20px;
-		color: hsl(0deg 0% 30%);
-		margin-top: -3em;
-		input {
-			outline: none;
-			border: none;
-			&::placeholder {
-				color: hsl(0deg 0% 0%);
-				font-size: 0.9em;
-			}
-		}
-		ion-icon {
-			color: hsl(0deg 0% 30%);
-			margin-bottom: -.2em;
-		}
-	}
-	.password {
-		background: hsl(0deg 0% 100%);
-		box-shadow: 0 0 2em hsl(231deg 62% 94%);
-		padding: 1em;
-		display: flex;
-		flex-direction: column;
-		gap: 0.5em;
-		border-radius: 20px;
-		color: hsl(0deg 0% 30%);
-		input {
-			outline: none;
-			border: none;
-			&::placeholder {
-				color: hsl(0deg 0% 0%);
-				font-size: 0.9em;
-			}
-		}
-		ion-icon {
-			color: hsl(0deg 0% 30%);
-			margin-bottom: -.2em;
-		}
-		.show-hide {
-			margin-right: -5em;
-		}
-	}
-	.login {
-		padding: 1em;
-		background: hsl(233deg 36% 38%);
-		color: hsl(0 0 100);
-		border: none;
-		border-radius: 30px;
-		font-weight: 600;
-	}
-	.footer {
-		display: flex;
-		font-size: 0.7em;
-		color: hsl(0deg 0% 37%);
-		gap: 14em;
-		padding-bottom: 10em;
-		span { cursor: pointer }
-	}
+* {
+    box-sizing: border-box;
 }
 
-button { cursor: pointer; }
+body {
+    margin: 0;
+    padding;0 30px;/*left and right margin for the body*/
+    height: 100vh;
+    width:360px;
+    background-image: url('background-image.jpg'); // Replace with your image URL
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 360px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-box {
+    width: 350px;
+    height: 600px;
+    margin-top: 300px;
+    
+    display: flex;
+    justify-content: space-between; // Space between images
+    align-items: flex-start;
+    padding: 0 1px; // Left and right margin for the box
+}
+
+.image {
+    width: 1500px;
+    height: 600px;
+    cursor: pointer;
+    margin-top: 0; // No top margin, handled by background box
+    
+}
+
+.image:not(:last-child) {
+    margin-right: 30px; // Space between images
+        
+}
