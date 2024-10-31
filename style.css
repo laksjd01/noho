@@ -4,9 +4,11 @@
 
 body {
     margin: 0;
-width:360px;
+width:800px;
+    width:100vh;
 padding:0 30px;/*left and right margin for the body*/
     height: 100vh;
+    height:2000px;
     background-image: url('background-image.jpg'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
