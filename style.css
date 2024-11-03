@@ -28,6 +28,6 @@ body {
     width: 35vw; /* Full width */
     height: auto; /* Maintain aspect ratio */
     max-height: 50vh; /* Limit height to avoid overflow */
-    margin-left:250px;
+    margin-left:375px;
     margin-top:400px;
 }
