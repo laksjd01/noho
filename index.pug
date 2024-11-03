@@ -6,10 +6,10 @@ html(lang="en")
     link(rel="stylesheet" href="styles.css") // Link to your compiled CSS
     title Your Website
   body
-    
-      .background-box
-        img.image(src="image1.jpg" alt="Image 1" onclick="window.open('image1.jpg')") // Replace with your image URL
-        img.image(src="image2.jpg" alt="Image 2" onclick="window.open('image2.jpg')") // Replace with your image URL
-.box
-        img.image(src="image3.jpg" alt="Image 1" onclick="window.open('image3.jpg')") // Replace with your image URL
-        img.image(src="image4.jpg" alt="Image 1" onclick="window.open('image4.jpg')") // Replace with your image URL
+    .container
+      .image-box
+        a(href="image1.jpg", target="_blank")
+          img(src="image1.jpg", alt="Image 1", class="center-image")
+      .image-box
+        a(href="image2.jpg", target="_blank")
+          img(src="image2.jpg", alt="Image 2", class="center-image")
