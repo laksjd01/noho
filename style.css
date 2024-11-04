@@ -2,6 +2,7 @@ body {
     margin: 0;
     height:700px;
     width:360px;
+    width:100vh;
     height: 100vh;
     background-image: url('background.jpg'); /* Replace with your background image */
     background-size: cover; /* Cover the entire body */
@@ -19,15 +20,23 @@ body {
 }
 
 .image-box {
-  margin-top:400px;
     padding: 5px ; /* Optional padding around images */
     margin: 5px; /* Space between images */
 }
 
 .center-image {
-    width: 35vw; /* Full width */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 50vh; /* Limit height to avoid overflow */
+    width: 50vh; /* Full width */
+    height: 50vh; 
     margin-left:375px;
-    margin-top:400px;
+}
+.cent{
+    margin-left:110px;
+width:100vh;
+    height:100vh;
+
+
+
+
+
+    
 }
