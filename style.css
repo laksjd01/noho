@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column; /* Stack images vertically */
     align-items: center;
+    margin-top:0;
 }
 
 .image-box {
