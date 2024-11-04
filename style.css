@@ -20,23 +20,24 @@ body {
 }
 
 .image-box {
+    margin-top:0;
     padding: 5px ; /* Optional padding around images */
     margin: 5px; /* Space between images */
 }
 
 .center-image {
-    width: 70vh;
-    height: 70vh; 
+    width: 100vh;
+    height: 100vh; 
     margin-left:150px;
-    width:50px;
-    height:50px;
+    width:350px;
+    height:350px;
 }
 .cent{
     margin-left:110px;
 width:100vh;
     height:100vh;
 
-
+margin-top:0;
 
 
 
